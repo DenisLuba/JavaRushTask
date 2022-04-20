@@ -1,0 +1,9 @@
+```
+studyProject/out/
+*.iml
+*.class
+.idea/
+TryKotlin/libs
+TryKotlin/out
+Module1
+```
