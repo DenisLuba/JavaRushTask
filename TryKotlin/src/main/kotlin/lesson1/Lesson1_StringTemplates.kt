@@ -1,3 +1,5 @@
+package lesson1
+
 fun main() {
     // объявление переменной
     var name_1: String // изменяемая (mutable)

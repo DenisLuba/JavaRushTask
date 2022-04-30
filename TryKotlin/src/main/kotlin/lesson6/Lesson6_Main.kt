@@ -1,3 +1,5 @@
+package lesson6
+
 fun main() {
     val person = Lesson6_Classes("Alex", "Smith", 30)
     println(person.age)

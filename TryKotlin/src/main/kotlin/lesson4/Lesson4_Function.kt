@@ -1,3 +1,5 @@
+package lesson4
+
 fun main() {
     myFirstFunction()
     mySecondFunction(1)

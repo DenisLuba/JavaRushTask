@@ -1,3 +1,5 @@
+package lesson5
+
 fun main() {
     val st: String? // "?" говорит о том, что переменная может содержать null
     st = getSt()

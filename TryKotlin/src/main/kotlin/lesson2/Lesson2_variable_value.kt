@@ -1,3 +1,5 @@
+package lesson2
+
 fun main() {
     // иницилизация переменных и вывод их на консоль
     var name: String = "Alex"
