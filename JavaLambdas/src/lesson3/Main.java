@@ -5,6 +5,7 @@ import java.util.function.Consumer;
 public class Main {
     public static void main(String[] args) {
         Consumer<String> printer1 = string -> System.out.println(string);
+        // Consumer<String> printer1 = System.out::println;
         printer1.accept("Hello, World 1!");
 
         Consumer<String> printer2 = System.out::println;
@@ -16,6 +17,7 @@ public class Main {
         //********************************************************
 
         Database database = User::new;
+        //Database database = (value1, value2) -> new User(value1, value2);
         User user = database.create("Simon", "root");
         System.out.printf("Name: %s\nPassword: %s\n", user.getName(), user.getPassword());
 
